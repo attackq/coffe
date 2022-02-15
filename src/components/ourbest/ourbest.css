@@ -1,0 +1,49 @@
+.ourbest {
+    width: 100%;
+    background: url('../../../public/assets/paper.jpg') no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 80px 0 110px 0;
+}
+
+.ourbestTitle {
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.ourbestItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+.ourbestItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.itemImg {
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.itemDesc {
+    margin: 0 20px 10px 20px;
+}
+
+.itemPrice {
+    align-self: flex-end;
+    margin-right: 20px;
+}
