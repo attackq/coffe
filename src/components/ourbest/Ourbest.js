@@ -1,33 +1,39 @@
 import '../container.css';
 import './ourbest.css';
 
+const cardData = [
+    {
+        img: '/assets/item1.jpg',
+        desc: 'Solimo Coffee Beans 2 kg',
+        price: '10.73$'
+    },
+    {
+        img: '/assets/item2.jpg',
+        desc: 'Solimo Coffee Beans 2 kg',
+        price: '15.99$'
+    },
+    {
+        img: '/assets/item3.jpg',
+        desc: 'Solimo Coffee Beans 2 kg',
+        price: '6.99$'
+    }
+]
+
 function Ourbest(props) {
     return (
         <div className='ourbest'>
             <div className="container">
                 <div className="ourbestTitle">Our best</div>
                 <div className="ourbestItems">
-                    <div className="ourbestItem">
-                        <div className="itemImg">
-                            <img src="/assets/item1.jpg" alt="best1" />
+                    {cardData.map((item, ind) => (
+                        <div className="ourbestItem" key={ind}>
+                            <div className="itemImg">
+                                <img src={item.img} alt="best1" />
+                            </div>
+                            <div className="itemDesc">{item.desc}</div>
+                            <div className="itemPrice">{item.price}</div>
                         </div>
-                        <div className="itemDesc">Solimo Coffee Beans 2 kg</div>
-                        <div className="itemPrice">10.73$</div>
-                    </div>
-                    <div className="ourbestItem">
-                        <div className="itemImg">
-                            <img src="/assets/item2.jpg" alt="best2" />
-                        </div>
-                        <div className="itemDesc">Presto Coffee Beans 1 kg</div>
-                        <div className="itemPrice">15.99$</div>
-                    </div>
-                    <div className="ourbestItem">
-                        <div className="itemImg">
-                            <img src="/assets/item3.jpg" alt="best3" />
-                        </div>
-                        <div className="itemDesc">AROMISTICO Coffee 1 kg</div>
-                        <div className="itemPrice">6.99$</div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>

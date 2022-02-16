@@ -1,15 +1,14 @@
 import './about.css';
 import '../container.css';
-import '../../components/header/header.css'
+import '../../components/header/header.css';
+import Aboutlogo from '../aboutlogo/Aboutlogo';
 
 function About(props) {
     return (
         <div className='about'>
             <div className="container">
                 <h2 className="aboutTitle">About Us</h2>
-                <div className="mainLogo black">
-                    <img src="/assets/main_beans_blc.svg" alt="beans" />
-                </div>
+                <Aboutlogo black />
                 <div className="aboutText"><p>Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
                     Afraid at highly months do things on at. Situation recommend objection do intention
                     so questions. As greatly removed calling pleased improve an. Last ask him cold feel

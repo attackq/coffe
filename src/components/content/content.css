@@ -1,0 +1,41 @@
+.contentWrapper {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contentItem {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.contentImg {
+    width: 100%;
+    height: 100%;
+    max-width: 270px;
+    max-height: 355px;
+    filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+}
+
+.contentLine {
+    width: 240px;
+    margin: 60px auto 0;
+    border: 1px solid #000000;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+}
+
+.contentTitle {
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.contentSuptitle {
+    font-size: 14px;
+    line-height: 20px;
+}

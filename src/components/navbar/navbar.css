@@ -1,4 +1,4 @@
-.navbarContainer {
+.navbar {
     position: absolute;
     width: 100%;
     max-width: 800px;
@@ -7,6 +7,12 @@
     justify-content: start;
     margin: 30px 0 110px 150px;
     z-index: 10;
+}
+
+.navbar.footer {
+    position: static;
+    margin: 30px 0 30px 0;
+    justify-content: center;
 }
 
 .navbarItem {
@@ -21,6 +27,10 @@
 
 }
 
+.navbarItem.black {
+    color: black;
+}
+
 a,
 .navbarItem a {
     text-decoration: none;
@@ -29,4 +39,8 @@ a,
 a:visited,
 .navbarItem a:visited {
     color: #FFFFFF;
+}
+
+.navbarItem.black a:visited {
+    color: black;
 }
