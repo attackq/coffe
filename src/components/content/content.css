@@ -1,16 +1,17 @@
 .contentWrapper {
     padding-top: 70px;
-    padding-bottom: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    margin: 0 -20px;
 }
 
 .contentItem {
-    width: 50%;
+    padding: 0 20px;
+    flex: 1;
     align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .contentImg {
@@ -32,6 +33,12 @@
     font-size: 24px;
     line-height: 35px;
     color: #000000;
+    margin-bottom: 20px;
+}
+
+.contentSubtitle {
+    font-size: 14px;
+    line-height: 20px;
     margin-bottom: 20px;
 }
 

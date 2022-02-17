@@ -1,0 +1,40 @@
+.listWrapper {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.listItem {
+    width: 220px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+
+    margin-bottom: 60px;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.listImg {
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.listDesc {
+    margin: 0 20px 10px 20px;
+}
+
+.listPrice {
+    align-self: flex-end;
+    margin-right: 20px;
+}
