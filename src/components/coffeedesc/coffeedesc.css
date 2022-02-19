@@ -1,0 +1,65 @@
+.coffeedesc {
+    padding-top: 70px;
+}
+
+.coffeeWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -25px;
+}
+
+.coffeeItem {
+    width: 50%;
+    padding: 0 25px;
+}
+
+.coffeeImg {
+    text-align: center;
+}
+
+.coffeeImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.itemLogo {
+    text-align: center;
+}
+
+.coffeeTitle {
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.itemText {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.itemCountry {
+    margin-bottom: 15px;
+}
+
+.itemDescr {
+    margin-bottom: 15px;
+}
+
+.itemText span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.itemPrice {
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.itemPrice span {
+    margin-right: 10px;
+}

@@ -1,33 +1,33 @@
 .mainLogo {
-    display: flex;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin-bottom: 35px;
-    justify-content: center;
     position: relative;
     text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
 }
 
-
 .mainLogo::before {
-    display: flex;
+    display: block;
     content: '';
     width: 60px;
     height: 1px;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
-    left: 300px;
+    left: 80px;
     top: 50%;
 }
 
 .mainLogo::after {
-    display: flex;
+    display: block;
     content: '';
     width: 60px;
     height: 1px;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
-    right: 300px;
+    right: 80px;
     top: 50%;
 }

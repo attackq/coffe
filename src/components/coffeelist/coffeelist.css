@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .listItem {
@@ -18,20 +17,33 @@
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    color: #000000;
-
+    color: #000000 !important;
     margin-bottom: 60px;
     filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
     cursor: pointer;
 }
 
 .listImg {
-    margin-top: 22px;
+    height: 130px;
+    padding-top: 22px;
     margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.listImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .listDesc {
     margin: 0 20px 10px 20px;
+}
+
+.listCountry {
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .listPrice {

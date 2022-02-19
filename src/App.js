@@ -1,9 +1,9 @@
 import Home from "./pages/home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
-
 import Linkedpage from "./pages/linkedpage/Linkedpage";
 import Choosencoffee from "./pages/choosencoffee/Choosencoffee";
+import Lastpage from "./pages/lastpage/Lastpage";
 
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
                     <Linkedpage />
                 </Route>
                 <Route path="/about">
-                    {/* <Linkedpage bg={'for-your'} title={'For your pleasure'} /> */}
+                    <Lastpage />
                 </Route>
-                <Route path="/coffeeItem">
+                <Route path="/coffeeItem/:id">
                     <Choosencoffee />
                 </Route>
             </Switch>
