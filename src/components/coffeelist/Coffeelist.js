@@ -1,15 +1,15 @@
 import './coffeelist.css';
 import '../ourbest/ourbest.css';
 import { Link } from "react-router-dom";
-import { coffeeData } from '../data/coffeeData';
 
 
-function Coffeelist(props) {
+function Coffeelist({ data }) {
+
     return (
         <div className="coffeeList">
             <div className="container">
                 <div className="listWrapper">
-                    {coffeeData.map((item, ind) => (
+                    {data.map((item, ind) => (
                         <Link to={`/coffeeItem/${item.id}`} className="listItem" key={ind}>
                             <div className="listImg">
                                 <img src={item.img} alt="best1" />

@@ -10,7 +10,7 @@ export const coffeeData = [
     {
         img: '/assets/item2.jpg',
         img2: '/assets/img2.jpg',
-        desc: 'Solimo Coffee Beans 2 kg',
+        desc: 'Toreco Coffee Beans 2 kg',
         country: 'Kenya',
         price: '15.99$',
         id: 2
@@ -18,7 +18,7 @@ export const coffeeData = [
     {
         img: '/assets/img3.jpg',
         img2: '/assets/img2.jpg',
-        desc: 'Solimo Coffee Beans 2 kg',
+        desc: 'Pinako Coffee Beans 2 kg',
         country: 'Columbia',
         price: '6.99$',
         id: 3
@@ -26,7 +26,7 @@ export const coffeeData = [
     {
         img: '/assets/item3.jpg',
         img2: '/assets/img2.jpg',
-        desc: 'Solimo Coffee Beans 2 kg',
+        desc: 'Wister Coffee Beans 2 kg',
         country: 'Brazil',
         price: '12.99$',
         id: 4
@@ -34,7 +34,7 @@ export const coffeeData = [
     {
         img: '/assets/item3.jpg',
         img2: '/assets/img2.jpg',
-        desc: 'Solimo Coffee Beans 2 kg',
+        desc: 'Nupyz Coffee Beans 2 kg',
         country: 'Kenya',
         price: '7.99$',
         id: 5
@@ -42,7 +42,7 @@ export const coffeeData = [
     {
         img: '/assets/item3.jpg',
         img2: '/assets/img2.jpg',
-        desc: 'Solimo Coffee Beans 2 kg',
+        desc: 'Lazom Coffee Beans 2 kg',
         country: 'Columbia',
         price: '6.99$',
         id: 6
